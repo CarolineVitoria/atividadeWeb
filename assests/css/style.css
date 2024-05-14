@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "avatar";
+  src: url(../fonte/Avatar\ Airbender.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body{
+    background-color: #FFF3E4;
+    color: #6B4F4F;
+    font-size: 50px;
+    font-family: 'avatar';
+    text-align: center;
+    height: 100vh;
+}
+h1{
+  font-size: 6rem;
+}
+#div-titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  margin: auto;
+}
+.btn {
+
+  color: #FFF3E4;
+  border-color: #6B4F4F;
+  background-color: #6B4F4F;
+  border-radius: 100rem;
+  font-size: 1.3rem;
+  height: 2.5rem;
+  width: 15rem;
+}
+
+svg{
+  position: fixed;
+  width: 15%;
+  height: 15%;
+  fill: #6B4F4F;
+}
+#svg-1{
+  right: 88%;
+}
+#svg-2{
+left: 88%;
+}
+#svg-3{
+  right: 88%;
+  top: 85%;
+}
+#svg-4{
+  left: 88%;
+  top: 85%;
+}
+      
